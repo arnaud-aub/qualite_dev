@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1bff5a9-9b65-44d8-bec5-8ea0c2659553" name="Changes" comment="création du projet">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/actions.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VenteVoiture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VenteVoiture.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/arnaud/Voiture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/arnaud/VoitureTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="e1bff5a9-9b65-44d8-bec5-8ea0c2659553" name="Changes" comment="création gradle" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718638999535</updated>
-      <workItem from="1718639000617" duration="1627000" />
+      <workItem from="1718639000617" duration="1946000" />
     </task>
     <task id="LOCAL-00001" summary="création du projet">
       <option name="closed" value="true" />
@@ -150,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718639682238</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="création gradle">
+      <option name="closed" value="true" />
+      <created>1718640676216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718640676216</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="création du projet" />
-    <option name="LAST_COMMIT_MESSAGE" value="création du projet" />
+    <MESSAGE value="création gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="création gradle" />
   </component>
 </project>
