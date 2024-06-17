@@ -40,4 +40,20 @@ public class ServiceTest {
         assertTrue(s3.prix() == 76000);
         assertFalse(s3.prix() == 1000);
     }
+
+    @Test
+    void testNull() {
+        ArrayList<Voiture> voitures = new ArrayList<>();
+        Service s = new Service(voitures);
+
+        boolean exceptionThrown = false;
+        try {
+            s.prix();
+        } catch (ArithmeticException e) {
+            exceptionThrown = true;
+            assertEquals("Il n'y a pas de voitures dans le tableau", e.getMessage());
+        }
+
+        assertTrue(exceptionThrown, "Expected ArithmeticException to be thrown");
+    }
 }
