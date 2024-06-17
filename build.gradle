@@ -1,48 +1,45 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '2.7.9'
-	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+	id 'org.springframework.boot' version '3.3.0'
+	id 'io.spring.dependency-management' version '1.1.5'
 	id 'jacoco'
 }
 
-
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '1.8'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
 
 repositories {
 	mavenCentral()
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	implementation 'com.h2database:h2'
+	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.10.2'
 	testImplementation 'org.junit.platform:junit-platform-suite-engine:1.10.2'
 }
 
-tasks.named('test') {
-	useJUnitPlatform()
+
+jacoco {
+	toolVersion = "0.8.7"
 }
 
 test {
-	testLogging {
-		events "passed", "failed", "skipped"
-	}
+	useJUnitPlatform()
 	finalizedBy jacocoTestReport
 }
 
-jacoco {
-	toolVersion = "0.8.9"
-}
-
 jacocoTestReport {
-	dependsOn test // tests are required to run before generating the report
 	reports {
-		xml.required = false
+		xml.required = true
 		csv.required = true
-		html.outputLocation = layout.buildDirectory.dir('jacocoHtml')
+		html.required = true
 	}
 }
