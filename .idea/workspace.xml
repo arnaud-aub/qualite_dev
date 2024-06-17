@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1bff5a9-9b65-44d8-bec5-8ea0c2659553" name="Changes" comment="création gradle">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_platform_suite_engine.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arnaud/SuiteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VenteVoiture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VenteVoiture.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +58,7 @@
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.ServiceTest.executor": "Run",
+    "JUnit.SuiteTest.executor": "Run",
     "JUnit.VoitureTest.executor": "Run",
     "JUnit.arnaud in VenteVoiture.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -67,13 +73,13 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.arnaud in VenteVoiture">
+  <component name="RunManager" selected="JUnit.SuiteTests">
     <configuration name="ServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VenteVoiture" />
       <extension name="coverage">
@@ -84,6 +90,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="arnaud" />
       <option name="MAIN_CLASS_NAME" value="arnaud.ServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuiteTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VenteVoiture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arnaud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arnaud" />
+      <option name="MAIN_CLASS_NAME" value="arnaud.SuiteTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,9 +135,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.arnaud in VenteVoiture" />
+        <item itemvalue="JUnit.SuiteTests" />
         <item itemvalue="JUnit.VoitureTest" />
         <item itemvalue="JUnit.ServiceTest" />
+        <item itemvalue="JUnit.arnaud in VenteVoiture" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718638999535</updated>
-      <workItem from="1718639000617" duration="2915000" />
+      <workItem from="1718639000617" duration="3664000" />
     </task>
     <task id="LOCAL-00001" summary="création du projet">
       <option name="closed" value="true" />
@@ -162,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718641697951</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="création gradle">
+      <option name="closed" value="true" />
+      <created>1718642132803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718642132803</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
