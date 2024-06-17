@@ -24,7 +24,7 @@ public class Service implements Statistique {
     }
 
     /**
-     * Création d'un service avec une voiture
+     * Création d'un service avec une liste de voitures
      * @void
      */
     public Service(ArrayList<Voiture> voitures){
